@@ -9,7 +9,8 @@ function findWaldo(arr, found) {
 function actionWhenFound(arr) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === "Waldo") {
-      console.log("Found Waldo at index " + arr[i]);
+      var waldoPos = i;
+      console.log("Found Waldo at index " + waldoPos);
     }
   }
 }
